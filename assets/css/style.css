@@ -1,6 +1,6 @@
 body {
   background-color: darkorchid;
-  color: #00ff00;
+  color: yellow;
 }
 
 header {
@@ -21,4 +21,13 @@ label {
 
 #search {
   background-color: goldenrod;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, .3);
+  height: 8rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  text-shadow: .05rem .05rem .18rem black;
+  margin-top: 10%;
 }
