@@ -47,7 +47,8 @@ function gifSearch() {
         x = $(this).data('topic');
 
         // Use the 'x' variable to search for the given topic
-        var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + x + '&api_key=dc6zaTOxFJmzC&limit=10';
+        var queryURL = 'https://api.giphy.com/v1/gifs/search?api_key=jRn11mdWHfSEWcMV1Jil6nXlneEsBTJP&q=' + x + '&limit=10&offset=0&rating=pg-13&lang=en&bundle=clips_grid_picker'
+        // var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + x + '&api_key=jRn11mdWHfSEWcMV1Jil6nXlneEsBTJP&limit=10';
 
         // Make an AJAX request to the queryURLs
         $.ajax({ url: queryURL, method: 'GET' }).done(function(response) {
