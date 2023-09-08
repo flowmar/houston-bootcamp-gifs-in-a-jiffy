@@ -65,7 +65,7 @@ function gifSearch() {
                 var resultgif = $('<img class="img-fluid img-thumbnail animated fadeIn">');
 
                 // give the <img> tag a 'src' attribute which is equal to the url
-                resultgif.attr('src', response.data[i].images.fixed_height.url);
+                resultgif.attr('src', response.data[i].images.fixed_width.url);
 
                 // Append the resultgif and rating to the gifDiv
                 gifDiv.append(resultgif);
